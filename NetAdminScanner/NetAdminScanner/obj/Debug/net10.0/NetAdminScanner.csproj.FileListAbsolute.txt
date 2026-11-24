@@ -1,0 +1,15 @@
+C:\Users\ncrv\Desktop\портфолио\NetAdminScanner\NetAdminScanner\bin\Debug\net10.0\NetAdminScanner.exe
+C:\Users\ncrv\Desktop\портфолио\NetAdminScanner\NetAdminScanner\bin\Debug\net10.0\NetAdminScanner.deps.json
+C:\Users\ncrv\Desktop\портфолио\NetAdminScanner\NetAdminScanner\bin\Debug\net10.0\NetAdminScanner.runtimeconfig.json
+C:\Users\ncrv\Desktop\портфолио\NetAdminScanner\NetAdminScanner\bin\Debug\net10.0\NetAdminScanner.dll
+C:\Users\ncrv\Desktop\портфолио\NetAdminScanner\NetAdminScanner\bin\Debug\net10.0\NetAdminScanner.pdb
+C:\Users\ncrv\Desktop\портфолио\NetAdminScanner\NetAdminScanner\obj\Debug\net10.0\NetAdminScanner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ncrv\Desktop\портфолио\NetAdminScanner\NetAdminScanner\obj\Debug\net10.0\NetAdminScanner.AssemblyInfoInputs.cache
+C:\Users\ncrv\Desktop\портфолио\NetAdminScanner\NetAdminScanner\obj\Debug\net10.0\NetAdminScanner.AssemblyInfo.cs
+C:\Users\ncrv\Desktop\портфолио\NetAdminScanner\NetAdminScanner\obj\Debug\net10.0\NetAdminScanner.csproj.CoreCompileInputs.cache
+C:\Users\ncrv\Desktop\портфолио\NetAdminScanner\NetAdminScanner\obj\Debug\net10.0\NetAdminScanner.dll
+C:\Users\ncrv\Desktop\портфолио\NetAdminScanner\NetAdminScanner\obj\Debug\net10.0\refint\NetAdminScanner.dll
+C:\Users\ncrv\Desktop\портфолио\NetAdminScanner\NetAdminScanner\obj\Debug\net10.0\NetAdminScanner.pdb
+C:\Users\ncrv\Desktop\портфолио\NetAdminScanner\NetAdminScanner\obj\Debug\net10.0\NetAdminScanner.genruntimeconfig.cache
+C:\Users\ncrv\Desktop\портфолио\NetAdminScanner\NetAdminScanner\obj\Debug\net10.0\ref\NetAdminScanner.dll
+C:\Users\ncrv\Desktop\портфолио\NetAdminScanner\NetAdminScanner\obj\Debug\net10.0\NetAdmin.E9FD4278.Up2Date

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLACK INK — Контакты</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-container">
+            
+            <div class="logo">
+              BLACK INK
+    <img src="photo_2026_04_29_14_45_31_Photoroom_negate.png" alt="Logo" class="logo-img">
+</div>
+            
+            <nav class="nav-links">
+                <a href="indexani1.html">
+                    Главная
+                </a>
+                <a href="indexani2.html">
+                    Портфолио
+                </a>
+                <a href="indexani3.html">
+                    Цены
+                </a>
+                <a href="indexani4.html" class="active">
+                    Контакты
+                </a>
+            </nav>
+
+            <div class="header-actions">
+                <span class="header-phone">
+                    +7 (999) 000-00-00
+                </span>
+                <button class="btn" style="width: auto;" onclick="openModal()">
+                    Записаться
+                </button>
+            </div>
+
+            <button class="burger-btn" onclick="toggleMobileMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <div class="logo">
+                BLACK INK
+            </div>
+            <button class="burger-btn" onclick="toggleMobileMenu()">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        
+        <nav class="mobile-nav">
+            <a href="indexani1.html">
+                Главная
+            </a>
+            <a href="indexani2.html">
+                Портфолио
+            </a>
+            <a href="indexani3.html">
+                Цены
+            </a>
+            <a href="indexani4.html" class="active">
+                Контакты
+            </a>
+        </nav>
+        
+        <div style="text-align: center;">
+            <p class="mobile-phone">
+                +7 (999) 000-00-00
+            </p>
+            <button class="btn" onclick="openModal(); toggleMobileMenu();">
+                Записаться на сеанс
+            </button>
+        </div>
+    </div>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                
+                <h1 class="section-title">
+                    КОНТАКТЫ
+                </h1>
+                
+                <div class="grid-2">
+                    
+                    <div style="text-align: center; align-self: center;">
+                        
+                        <div style="margin-bottom: 30px;">
+                            <h4 style="font-size: 16px; margin-bottom: 10px;">
+                                АДРЕС СТУДИИ
+                            </h4>
+                            <p style="color: #888888; font-size: 14px;">
+                                г. Москва, ул. Малевича, 13<br>
+                                Метро: Тверская
+                            </p>
+                        </div>
+                        
+                        <div style="margin-bottom: 30px;">
+                            <h4 style="font-size: 16px; margin-bottom: 10px;">
+                                РЕЖИМ РАБОТЫ
+                            </h4>
+                            <p style="color: #888888; font-size: 14px;">
+                                Ежедневно с 12:00 до 21:00<br>
+                                Без перерывов и выходных
+                            </p>
+                        </div>
+                        
+                        <div style="margin-bottom: 30px;">
+                            <h4 style="font-size: 16px; margin-bottom: 10px;">
+                                СВЯЗАТЬСЯ С НАМИ
+                            </h4>
+                            <p style="font-family: 'Montserrat'; font-size: 24px; font-weight: 700;">
+                                +7 (999) 000-00-00
+                            </p>
+                            <p style="color: #888888; font-size: 14px; margin-top: 10px;">
+                                blackink@studio.ru
+                            </p>
+                            
+                            <div class="social-links" style="justify-content: center; margin-top: 20px;">
+                                <i class="fa-brands fa-vk"></i>
+                                <i class="fa-brands fa-telegram"></i>
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="form-box">
+                        <h3 style="font-size: 20px; margin-bottom: 10px;">
+                            ОСТАЛИСЬ ВОПРОСЫ?
+                        </h3>
+                        <p style="color: #888888; font-size: 14px; margin-bottom: 20px;">
+                            Оставьте сообщение, и администратор свяжется с вами в течение часа
+                        </p>
+                        
+                        <form action="#" style="text-align: left;">
+                            <input type="text" class="form-input" placeholder="Имя" required>
+                            <input type="text" class="form-input" placeholder="Ваш телефон или мессенджер" required>
+                            <textarea class="form-input" placeholder="Напишите ваш вопрос..." required></textarea>
+                            <button type="submit" class="btn">
+                                ОТПРАВИТЬ СООБЩЕНИЕ
+                            </button>
+                        </form>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                
+                <div>
+                    <div class="logo">
+                        BLACK INK
+                    </div>
+                    <p style="color: #888888; font-size: 14px; margin-top: 10px;">
+                        Искусство под кожей.<br>
+                        Качество навсегда.
+                    </p>
+                </div>
+                
+                <div>
+                    <h4 class="footer-title">
+                        Навигация
+                    </h4>
+                    <ul class="footer-links">
+                        <li>
+                            <a href="indexani1.html">
+                                Главная
+                            </a>
+                        </li>
+                        <li>
+                            <a href="indexani2.html">
+                                Портфолио
+                            </a>
+                        </li>
+                        <li>
+                            <a href="indexani3.html">
+                                Цены
+                            </a>
+                        </li>
+                        <li>
+                            <a href="indexani4.html">
+                                Контакты
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="footer-title">
+                        Услуги
+                    </h4>
+                    <ul class="footer-links">
+                        <li>
+                            Художественная тату
+                        </li>
+                        <li>
+                            Перекрытие (Cover-up)
+                        </li>
+                        <li>
+                            Разработка эскиза
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="footer-title">
+                        Социальные сети
+                    </h4>
+                    <div class="social-links">
+                        <i class="fa-brands fa-vk"></i>
+                        <i class="fa-brands fa-telegram"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="footer-bottom">
+                © 2026 Black Ink Tattoo Studio. Все права защищены.
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal-overlay" id="bookingModal">
+        <div class="modal-content">
+            <i class="fa-solid fa-xmark close-modal" onclick="closeModal()"></i>
+            
+            <h3 class="modal-title">
+                ЗАПИСЬ НА СЕАНС
+            </h3>
+            <p class="modal-subtitle">
+                Оставьте данные, и мы подберем удобное время.
+            </p>
+            
+            <form action="#">
+                <input type="text" class="form-input" placeholder="Ваше имя" required>
+                <input type="tel" class="form-input" placeholder="Номер телефона" required>
+                <select class="form-input" required>
+                    <option value="">
+                        Выберите услугу
+                    </option>
+                    <option value="tattoo">
+                        Художественная тату
+                    </option>
+                    <option value="cover">
+                        Перекрытие
+                    </option>
+                </select>
+                <button type="submit" class="btn">
+                    ПОДТВЕРДИТЬ
+                </button>
+            </form>
+            
+        </div>
+    </div>
+
+    <script>
+        function toggleMobileMenu() {
+            document.getElementById('mobileMenu').classList.toggle('open');
+        }
+        function openModal() {
+            document.getElementById('bookingModal').classList.add('open');
+        }
+        function closeModal() {
+            document.getElementById('bookingModal').classList.remove('open');
+        }
+    </script>
+</body>
+</html>

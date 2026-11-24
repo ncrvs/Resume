@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "NetAdminScanner/1.0.0": {
+        "runtime": {
+          "NetAdminScanner.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NetAdminScanner/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

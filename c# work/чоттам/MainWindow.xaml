@@ -1,0 +1,43 @@
+﻿<Window x:Class="WeekendPlanner.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Планировщик выходного дня" Height="520" Width="420"
+        WindowStartupLocation="CenterScreen">
+    <StackPanel Margin="15">
+        <TextBlock Text="1. Выберите дату:" FontWeight="Bold" Margin="0,0,0,5"/>
+        <DatePicker x:Name="dpDate" Margin="0,0,0,10"/>
+
+        <TextBlock Text="2. Тип отдыха:" FontWeight="Bold" Margin="0,0,0,5"/>
+        <ComboBox x:Name="cbType" Margin="0,0,0,10">
+            <ComboBoxItem Content="Активный"/>
+            <ComboBoxItem Content="Спокойный / Домашний"/>
+            <ComboBoxItem Content="Культурный"/>
+        </ComboBox>
+
+        <TextBlock Text="3. Основное занятие:" FontWeight="Bold" Margin="0,0,0,5"/>
+        <StackPanel Margin="0,0,0,10">
+            <RadioButton Content="Поход / Прогулка в парке" Checked="RadioButton_Checked"/>
+            <RadioButton Content="Просмотр фильма / Чтение" Checked="RadioButton_Checked"/>
+            <RadioButton Content="Поход в музей / Театр" Checked="RadioButton_Checked"/>
+            <RadioButton Content="Встреча с друзьями" Checked="RadioButton_Checked"/>
+        </StackPanel>
+
+        <TextBlock Text="4. Предпочтительное место:" FontWeight="Bold" Margin="0,0,0,5"/>
+        <ListBox x:Name="lbPlace" Height="65" Margin="0,0,0,10">
+            <ListBoxItem Content="На свежем воздухе"/>
+            <ListBoxItem Content="Дома"/>
+            <ListBoxItem Content="В заведении / Центре города"/>
+        </ListBox>
+
+        <TextBlock Text="5. Дополнительно:" FontWeight="Bold" Margin="0,0,0,5"/>
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,15">
+            <CheckBox x:Name="chkFood" Content="Вкусная еда" Margin="0,0,15,0"/>
+            <CheckBox x:Name="chkPhoto" Content="Сделать фото" Margin="0,0,15,0"/>
+            <CheckBox x:Name="chkMusic" Content="Слушать музыку"/>
+        </StackPanel>
+
+        <Button x:Name="btnGenerate" Content="Составить план" Height="32" Click="btnGenerate_Click" Margin="0,0,0,10"/>
+
+        <TextBlock x:Name="tbResult" Text="Здесь появится ваш план..." TextWrapping="Wrap" Foreground="DarkBlue"/>
+    </StackPanel>
+</Window>
